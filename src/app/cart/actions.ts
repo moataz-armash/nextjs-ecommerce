@@ -45,8 +45,6 @@ export async function setProductQuantity(productId: string, quantity: number) {
           },
         },
       });
-
-  
     }
   }
 

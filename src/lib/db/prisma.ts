@@ -11,7 +11,7 @@ export const prisma = prismaBase.$extends({
     cart: {
       async update({ args, query }) {
         args.data = { ...args.data, updatedAt: new Date() };
-        return query(args)
+        return query(args);
       },
     },
   },

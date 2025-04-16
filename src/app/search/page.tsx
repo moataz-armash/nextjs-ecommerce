@@ -9,7 +9,7 @@ interface SearchPageProps {
 export function generateMetadata({
   searchParams: { query },
 }: SearchPageProps): Metadata {
-  return {title: `Search: ${query} - Flowmazon`};
+  return { title: `Search: ${query} - Flowmazon` };
 }
 
 export default async function SearchPage({
