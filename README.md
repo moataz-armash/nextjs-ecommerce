@@ -44,5 +44,7 @@ To run the project locally:
 ```
 
 5. Start the development server
-npm run dev
 
+```bash
+   npm run dev
+```
