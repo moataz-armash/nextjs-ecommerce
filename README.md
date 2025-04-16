@@ -38,13 +38,13 @@ To run the project locally:
 3. Set up your .env file with appropriate credentials for MongoDB and authentication
 4. Run database migrations
 
-```bash
+   ```bash
    npx prisma generate
    npx prisma migrate dev
-```
+   ```
 
 5. Start the development server
 
-```bash
+   ```bash
    npm run dev
-```
+   ```
